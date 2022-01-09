@@ -5,17 +5,17 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "348b477bbdda1c443deb17a3d2084b23"
+        API_ID = 16495598
+        BOT_TOKEN = "5039243702:AAHLEzmJzGGT8aa9VMO6ADC-5CYQihyQ3MI"
+        BASE_URL_OF_BOT = "ztorbot.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001557472236]
+        OWNER_ID = 1636459977
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -64,7 +64,7 @@ except:
         TRACKER_SOURCE = "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt"
 
         # Gdrive Config
-        GDRIVE_BASE_DIR = "/"
+        GDRIVE_BASE_DIR = "0AGE-OLhqXga2Uk9PVA"
 
         # Onedrive Config
         ONEDRIVE_BASE_DIR = "/"
@@ -72,7 +72,7 @@ except:
         ONEDRIVE_INDEX_URL = ""
 
         # The base direcory to which the files will be upload if using RCLONE for other engine than GDRIVE/ONEDRIVE
-        RCLONE_BASE_DIR = "/"
+        RCLONE_BASE_DIR = "0AGE-OLhqXga2Uk9PVA"
         
         # Set this value to show all the remotes while leeching
         SHOW_REMOTE_LIST = False
@@ -83,7 +83,7 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
@@ -101,7 +101,7 @@ except:
         MAX_DL_LINK_SIZE = 10
 
         # SA Account Enable/Disable. Read the readme.md before using this feature.
-        ENABLE_SA_SUPPORT_FOR_GDRIVE = False
+        ENABLE_SA_SUPPORT_FOR_GDRIVE = True
         SA_FOLDER_ID = ""
         SA_TD_ID = ""
         SA_ACCOUNTS_FOLDER = ""
